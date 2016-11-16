@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FireEject.cs">
+    <Files>
+      <File FileName="Assets\Zombie\Model\ZombieAI.cs" Line="27" Column="17" />
+      <File FileName="Assets\PlayerStats.cs" Line="19" Column="11" />
+      <File FileName="Assets\ThrowGrenade.cs" Line="22" Column="8" />
+      <File FileName="Assets\Zombie\Model\ZombieHealth.cs" Line="11" Column="12" />
+      <File FileName="Assets\Enemy.cs" Line="6" Column="43" />
+      <File FileName="Assets\Zombie\Model\LockRotation.cs" Line="8" Column="93" />
+      <File FileName="Assets\FireEject.cs" Line="71" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
