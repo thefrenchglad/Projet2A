@@ -1,14 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FireEject.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Ralentisseur.cs">
     <Files>
-      <File FileName="Assets\Zombie\Model\ZombieAI.cs" Line="27" Column="17" />
-      <File FileName="Assets\PlayerStats.cs" Line="19" Column="11" />
-      <File FileName="Assets\ThrowGrenade.cs" Line="22" Column="8" />
-      <File FileName="Assets\Zombie\Model\ZombieHealth.cs" Line="11" Column="12" />
-      <File FileName="Assets\Enemy.cs" Line="6" Column="43" />
-      <File FileName="Assets\Zombie\Model\LockRotation.cs" Line="8" Column="93" />
-      <File FileName="Assets\FireEject.cs" Line="71" Column="28" />
+      <File FileName="Assets\Scripts\Character\FireEject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Grenade\ExplosionZone.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Character\BulletDamage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Character\DestroyBullet.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\StopAggroTurret.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Character\PlayerStats.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Box\HpBox.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\ZombieHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\TurretStats.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\TirCanon.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\Canon.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\ZombieAI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\spawnZombie.cs" Line="1" Column="1" />
+      <File FileName="Assets\Ralentisseur.cs" Line="5" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

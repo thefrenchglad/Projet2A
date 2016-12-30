@@ -45,14 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Aiming.cs" />
-     <Compile Include="Assets\AmmoBox.cs" />
-     <Compile Include="Assets\DestroyBullet.cs" />
-     <Compile Include="Assets\Enemy.cs" />
-     <Compile Include="Assets\ExplosionZone.cs" />
-     <Compile Include="Assets\FireEject.cs" />
-     <Compile Include="Assets\NadeExplosion.cs" />
-     <Compile Include="Assets\PlayerStats.cs" />
+     <Compile Include="Assets\Ralentisseur.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\ReturnToMainMenu.cs" />
@@ -62,11 +55,28 @@
      <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-     <Compile Include="Assets\SwapWeapon.cs" />
-     <Compile Include="Assets\ThrowGrenade.cs" />
-     <Compile Include="Assets\Zombie\Model\LockRotation.cs" />
-     <Compile Include="Assets\Zombie\Model\ZombieAI.cs" />
-     <Compile Include="Assets\Zombie\Model\ZombieHealth.cs" />
+     <Compile Include="Assets\Scripts\AI\Canon.cs" />
+     <Compile Include="Assets\Scripts\AI\LockRotation.cs" />
+     <Compile Include="Assets\Scripts\AI\StopAggroTurret.cs" />
+     <Compile Include="Assets\Scripts\AI\TirCanon.cs" />
+     <Compile Include="Assets\Scripts\AI\TurretStats.cs" />
+     <Compile Include="Assets\Scripts\AI\ZombieAI.cs" />
+     <Compile Include="Assets\Scripts\AI\ZombieHealth.cs" />
+     <Compile Include="Assets\Scripts\Box\AmmoBox.cs" />
+     <Compile Include="Assets\Scripts\Box\HpBox.cs" />
+     <Compile Include="Assets\Scripts\Character\Aiming.cs" />
+     <Compile Include="Assets\Scripts\Character\BulletDamage.cs" />
+     <Compile Include="Assets\Scripts\Character\DestroyBullet.cs" />
+     <Compile Include="Assets\Scripts\Character\FireEject.cs" />
+     <Compile Include="Assets\Scripts\Character\PlayerStats.cs" />
+     <Compile Include="Assets\Scripts\Character\ScreenSize.cs" />
+     <Compile Include="Assets\Scripts\Character\SwapWeapon.cs" />
+     <Compile Include="Assets\Scripts\DarkLight.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Grenade\ExplosionZone.cs" />
+     <Compile Include="Assets\Scripts\Grenade\NadeExplosion.cs" />
+     <Compile Include="Assets\Scripts\Grenade\ThrowGrenade.cs" />
+     <Compile Include="Assets\Scripts\spawnZombie.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

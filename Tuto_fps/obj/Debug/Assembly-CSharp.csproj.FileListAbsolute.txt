@@ -20,3 +20,25 @@ C:\Users\Public\Documents\Unity Projects\Tuto_fps\Temp\bin\Debug\UnityEngine.UI.
 C:\Users\Public\Documents\Unity Projects\Tuto_fps\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\Public\Documents\Unity Projects\Tuto_fps\obj\Debug\Assembly-CSharp.dll
 C:\Users\Public\Documents\Unity Projects\Tuto_fps\obj\Debug\Assembly-CSharp.pdb
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEditor.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\Mono.Cecil.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\Unity.DataContract.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.xml
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEditor.xml
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.UI.xml
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.Networking.xml
+D:\Projet2A\Tuto_fps\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+D:\Projet2A\Tuto_fps\obj\Debug\Assembly-CSharp.dll
+D:\Projet2A\Tuto_fps\obj\Debug\Assembly-CSharp.pdb

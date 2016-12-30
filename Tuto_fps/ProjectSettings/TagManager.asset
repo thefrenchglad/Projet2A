@@ -7,6 +7,10 @@ TagManager:
   - Fire
   - Bullet
   - Ennemi
+  - Zombie1
+  - Nade
+  - TurretAg
+  - turret
   layers:
   - Default
   - TransparentFX
