@@ -103,7 +103,7 @@ public class FireEject : MonoBehaviour {
 	}
 
 	void OnGUI(){
-		GUI.Box (new Rect (10, Screen.height-20, 130, 25),clip+" / "+mag);
+		GUI.Box (new Rect (20, Screen.height-40, 130, 25),clip+" / "+mag);
 	}
 
 

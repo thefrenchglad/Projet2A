@@ -22,9 +22,13 @@ C:\Users\Public\Documents\Unity Projects\Tuto_fps\obj\Debug\Assembly-CSharp-firs
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEditor.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.Analytics.dll
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.HoloLens.dll
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.VR.dll
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\Mono.Cecil.dll
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\Unity.SerializationLogic.dll
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\Unity.DataContract.dll
@@ -37,6 +41,9 @@ D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.xml
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEditor.xml
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.UI.xml
 D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.Networking.xml
-D:\Projet2A\Tuto_fps\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.Analytics.xml
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.HoloLens.xml
+D:\Projet2A\Tuto_fps\Temp\bin\Debug\UnityEngine.VR.xml
 D:\Projet2A\Tuto_fps\obj\Debug\Assembly-CSharp-firstpass.dll
 D:\Projet2A\Tuto_fps\obj\Debug\Assembly-CSharp-firstpass.pdb

@@ -3,8 +3,8 @@ using System.Collections;
 
 public class spawnZombie : MonoBehaviour {
 
-	[SerializeField] float debut = 5f;
-	[SerializeField] float timer = 5f;
+	[SerializeField] int debut = 5;
+	[SerializeField] int timer = 5;
 	[SerializeField] GameObject spawnType;
 	[SerializeField] bool actif = true;
 	[SerializeField] float ran = 0f;
@@ -13,19 +13,24 @@ public class spawnZombie : MonoBehaviour {
 	// Use this for initialization
 	void Update () {
 		if (actif == true) {
-			if (Time.time % timer == 0) {
-				InvokeRepeating ("spawn", debut, timer);
+			Debug.Log ((int)Time.time);
+			if ((int)Time.time % timer == 0) {
+				Invoke ("spawn", debut);
+				timer += 2;
 			}
 		}
 	}
 
 	void spawn(){
+		Debug.Log("SPAWN");
+		Debug.Log(Time.time%timer);
 		ran = Random.Range (-20, 20); 
 		pos = transform.position;
 		pos.x += ran;
 		ran = Random.Range (-20, 20); 
 		pos.z += ran;
 		Instantiate (spawnType,pos, transform.rotation);
-
 	}
 }
+
+	

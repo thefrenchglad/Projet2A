@@ -4,8 +4,11 @@ using System.Collections;
 public class ZombieHealth : MonoBehaviour {
 
 	[SerializeField] public int zombieHealth = 50;
-	[SerializeField] int timer = 5;
+	[SerializeField] int timer = 1;
 	public bool zombieD = false;
+	public int points = 5;
+
+	private GameObject joueur;
 	
 	// Update is called once per frame
 	void Update () {
@@ -15,6 +18,9 @@ public class ZombieHealth : MonoBehaviour {
 			gameObject.GetComponent<ZombieAI>().enabled=false;
 			gameObject.GetComponent<CharacterController>().enabled=false;
 			gameObject.GetComponent<CapsuleCollider> ().enabled = false;
+
+
+
 			Invoke("Dead",timer);
 		}
 	}
@@ -25,6 +31,8 @@ public class ZombieHealth : MonoBehaviour {
 }
 
 	void Dead(){
+		joueur = GameObject.FindGameObjectWithTag ("Player");
+		joueur.SendMessageUpwards ("ApplyScore", points);
 		Destroy (gameObject);
 	}
 }

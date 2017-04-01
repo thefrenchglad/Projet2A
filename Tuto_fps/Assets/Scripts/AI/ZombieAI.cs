@@ -18,12 +18,12 @@ public class ZombieAI : MonoBehaviour {
 	private float attackTime;
 
 	[SerializeField] CharacterController controller;
-	[SerializeField] float gravity = 20;
+
 
 	private Vector3 moveDirection = Vector3.zero;
 
 	private GameObject[] zturretTab;
-	private GameObject tarPlayer;
+	[SerializeField] private GameObject tarPlayer;
 	private GameObject closerTar;
 	private float closerD = Mathf.Infinity;
 	private Vector3 diff;
@@ -74,10 +74,12 @@ public class ZombieAI : MonoBehaviour {
 	void Chase(){
 		GetComponent<Animator> ().Play ("walk");
 
-		moveDirection = transform.forward;
+		/*moveDirection = transform.forward;
 		moveDirection *= moveSpeed;
 		moveDirection.y -= gravity * Time.deltaTime;
-		controller.Move (moveDirection * Time.deltaTime);
+		controller.Move (moveDirection * Time.deltaTime);*/
+		UnityEngine.AI.NavMeshAgent agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+		agent.destination = targetZ.transform.position; 
 	}
 
 	void ApplySlow(float slow){
