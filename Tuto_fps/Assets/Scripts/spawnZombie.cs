@@ -13,7 +13,6 @@ public class spawnZombie : MonoBehaviour {
 	// Use this for initialization
 	void Update () {
 		if (actif == true) {
-			Debug.Log ((int)Time.time);
 			if ((int)Time.time % timer == 0) {
 				Invoke ("spawn", debut);
 				timer += 2;
@@ -22,8 +21,6 @@ public class spawnZombie : MonoBehaviour {
 	}
 
 	void spawn(){
-		Debug.Log("SPAWN");
-		Debug.Log(Time.time%timer);
 		ran = Random.Range (-20, 20); 
 		pos = transform.position;
 		pos.x += ran;

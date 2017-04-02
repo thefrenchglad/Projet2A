@@ -22,28 +22,28 @@ public class ZombieAI : MonoBehaviour {
 
 	private Vector3 moveDirection = Vector3.zero;
 
-	private GameObject[] zturretTab;
+	//private GameObject[] zturretTab;
 	[SerializeField] private GameObject tarPlayer;
 	private GameObject closerTar;
 	private float closerD = Mathf.Infinity;
 	private Vector3 diff;
 	private float distCT;
 
-	// Use this for initialization
+
 	void Start () {
 		attackTime = Time.time;
 	}
-
-	// Update is called once per frame
+		
 	void Update () {
-		zturretTab = GameObject.FindGameObjectsWithTag ("turret");
+		//zturretTab = GameObject.FindGameObjectsWithTag ("turret");
 		tarPlayer = GameObject.FindGameObjectWithTag ("Player");
+		targetZ = tarPlayer;
 
-		targetZ = ClosestTar(zturretTab,tarPlayer);
+		/*targetZ = ClosestTar(zturretTab,tarPlayer);
 		if (targetZ == null) {
 			closerD = Mathf.Infinity;
 			targetZ = ClosestTar(zturretTab,tarPlayer);
-		}
+		}*/
 		Dist = Vector3.Distance(targetZ.transform.position, transform.position);
 
 		if (Dist < lookDistance) {
@@ -87,7 +87,7 @@ public class ZombieAI : MonoBehaviour {
 		Debug.Log (name + " slowed");
 	}
 
-	GameObject ClosestTar(GameObject[] zturretTab, GameObject tarPlayer){
+	/*GameObject ClosestTar(GameObject[] zturretTab, GameObject tarPlayer){
 		foreach (GameObject tar in zturretTab) {
 			diff = tar.transform.position - gameObject.transform.position;
 			distCT = diff.sqrMagnitude;
@@ -103,5 +103,5 @@ public class ZombieAI : MonoBehaviour {
 			closerD = distCT;
 		}
 		return closerTar;
-	}
+	}*/
 }

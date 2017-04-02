@@ -8,7 +8,7 @@ public class PlayerStats : MonoBehaviour {
 	[SerializeField] int PlayerHealth = 100;
 	[SerializeField] int HealthMax = 100;
 	private GameObject fpsc;
-	public int score;
+	public int score = 0;
 
 	bool mort = false;
 
@@ -51,6 +51,18 @@ public class PlayerStats : MonoBehaviour {
 		if (PlayerHealth >= 90) {
 			bloodUI.GetComponent<CanvasGroup>().alpha = 0f;
 		}
+
+
+		if (Input.GetKeyDown (KeyCode.Escape)) {
+			if (Time.timeScale == 1) {
+				Time.timeScale = 0;
+				Screen.lockCursor = false;
+			} else {
+				Time.timeScale = 1;
+				Screen.lockCursor = true;
+			}
+		}
+
 	}
 
 
@@ -74,6 +86,9 @@ public class PlayerStats : MonoBehaviour {
 
 	void ApplyScore(int points){
 		score += points;
+	}
+	public void TurretActivation(int points){
+		score -= points;
 	}
 
 	void Dead(){

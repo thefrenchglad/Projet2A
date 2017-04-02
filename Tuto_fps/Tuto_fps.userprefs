@@ -1,19 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\ZombieHealth.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Character\PlayerStats.cs">
     <Files>
-      <File FileName="Assets\Scripts\Character\PlayerStats.cs" Line="77" Column="3" />
-      <File FileName="Assets\Scripts\Character\FireEject.cs" Line="106" Column="23" />
+      <File FileName="Assets\Scripts\Character\PlayerStats.cs" Line="56" Column="43" />
+      <File FileName="Assets\Scripts\Character\FireEject.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Grenade\ExplosionZone.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Character\BulletDamage.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Character\DestroyBullet.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\StopAggroTurret.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Box\HpBox.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\ZombieHealth.cs" Line="21" Column="4" />
+      <File FileName="Assets\Scripts\Box\HpBox.cs" Line="25" Column="4" />
+      <File FileName="Assets\Scripts\AI\ZombieHealth.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\TurretStats.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\TirCanon.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\TirCanon.cs" Line="64" Column="31" />
       <File FileName="Assets\Scripts\AI\Canon.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\ZombieAI.cs" Line="68" Column="61" />
+      <File FileName="Assets\Scripts\AI\ZombieAI.cs" Line="39" Column="59" />
       <File FileName="Assets\Scripts\Item\Ralentisseur.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Item\stopWater.cs" Line="1" Column="1" />
       <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="1" Column="1" />
@@ -28,11 +28,11 @@
       <File FileName="Assets\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" Line="1" Column="1" />
       <File FileName="Assets\Menu\SF UI\Quitter.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Character\Aiming.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\spawnZombie.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\spawnZombie.cs" Line="23" Column="15" />
       <File FileName="Assets\Menu\LoadAsync.cs" Line="1" Column="1" />
       <File FileName="Assets\Menu\Menu.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Box\AmmoBox.cs" Line="1" Column="1" />
-      <File FileName="Assets\Menu\ShowCur.cs" Line="9" Column="2" />
+      <File FileName="Assets\Menu\ShowCur.cs" Line="8" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

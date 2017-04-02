@@ -23,13 +23,20 @@ public class TirCanon : MonoBehaviour {
 	[SerializeField] private AudioClip shotsound;
 	[SerializeField] bool actif = false;
 
-	// Use this for initialization
+
+	private bool showGUI = false;
+	private int timer = 20;
+	private int stopper;
+	private int scoring;
+	private GameObject joueur;
+
 	void Start () {
 		nextFire = Time.time;
 		s_AudioSource = GetComponent<AudioSource>();
+		joueur = GameObject.FindGameObjectWithTag ("Player");
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 		if(GameObject.Find("TurretAggro") == true){
 			targetT = GameObject.Find ("corps").GetComponent<Canon> ().target;
@@ -46,6 +53,23 @@ public class TirCanon : MonoBehaviour {
 			}
 			if (tirOk == false) {
 				Debug.Log ("Can't shoot");
+			}
+			scoring = GameObject.Find("PlayerStats").GetComponent<PlayerStats> ().score;
+
+		}
+
+		if (showGUI == true) {
+			if (Input.GetKeyDown ("e")) {
+				if (scoring >= 250) {
+					joueur.SendMessageUpwards("TurretActivation", 250);
+					actif = true;
+					stopper = (int)Time.time + timer;
+				}
+			}
+		}
+		if (actif == true) {
+			if ((int)Time.time > stopper) {
+				actif = false;
 			}
 		}
 	}
@@ -74,4 +98,30 @@ public class TirCanon : MonoBehaviour {
 	{
 		s_AudioSource.PlayOneShot(shotsound);
 	}
+
+
+	void OnTriggerEnter(Collider hit){
+		if (hit.gameObject.tag =="Player") {
+			if (actif == false) {
+				showGUI = true;
+			}
+		}
+	}
+
+	void OnTriggerExit(Collider hit){
+		if (hit.gameObject.tag =="Player") {
+			showGUI = false;
+		}
+	}
+
+	void OnGUI(){
+		if (showGUI == true) {
+			if (scoring >= 250) {
+				GUI.Box (new Rect (Screen.width / 2 - 100f, Screen.height / 2 - 12.5f, 200, 25), "Press E to activate");
+			} else {
+				GUI.Box (new Rect (Screen.width / 2 - 100f, Screen.height / 2 - 12.5f, 200, 25), "You need 250 points to activate");
+			}
+		}
+	}
+
 }
